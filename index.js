@@ -27,7 +27,7 @@ app.get('/user',function(request,reponse){
     // var Msv = 'Ph11372';
     // var arr = ['Apple', 'Class','Public','Name'];
 
-    
+
     reponse.render('user');
 });
 app.get('/dangnhap',function(request,reponse){
